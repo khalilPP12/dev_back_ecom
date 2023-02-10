@@ -27,6 +27,7 @@ yarn start
 Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
 
 ```
+Pré-requis NodeJS V 18 Npm v6 (downGrade a la version 6)
 npm run build
 # or
 yarn build
