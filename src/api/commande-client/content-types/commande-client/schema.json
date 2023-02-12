@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commande_clients",
+  "info": {
+    "singularName": "commande-client",
+    "pluralName": "commande-clients",
+    "displayName": "commandeClient"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID_ARTICLE": {
+      "type": "string"
+    },
+    "emailClient": {
+      "type": "email"
+    },
+    "phoneNumnberClient": {
+      "type": "biginteger"
+    },
+    "dateCommande": {
+      "type": "datetime"
+    },
+    "nameArticle": {
+      "type": "string"
+    },
+    "qteArticleCommande": {
+      "type": "integer"
+    }
+  }
+}
